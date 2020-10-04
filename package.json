@@ -18,8 +18,12 @@
   "homepage": "https://github.com/0307kwon/webpack_test#readme",
   "devDependencies": {
     "css-loader": "^4.3.0",
+    "html-webpack-plugin": "^4.5.0",
     "style-loader": "^1.2.1",
     "webpack": "^4.44.2",
     "webpack-cli": "^3.3.12"
+  },
+  "dependencies": {
+    "lodash": "^4.17.20"
   }
 }
