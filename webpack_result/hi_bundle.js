@@ -81,7 +81,7 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = "./source/index.js");
+/******/ 	return __webpack_require__(__webpack_require__.s = "./source/hi.js");
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -134,15 +134,15 @@ eval("__webpack_require__.r(__webpack_exports__);\nlet word = \"hello\";\r\n\r\n
 
 /***/ }),
 
-/***/ "./source/index.js":
-/*!*************************!*\
-  !*** ./source/index.js ***!
-  \*************************/
+/***/ "./source/hi.js":
+/*!**********************!*\
+  !*** ./source/hi.js ***!
+  \**********************/
 /*! no exports provided */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _hello_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./hello.js */ \"./source/hello.js\");\n/* harmony import */ var _world_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./world.js */ \"./source/world.js\");\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./style.css */ \"./source/style.css\");\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_style_css__WEBPACK_IMPORTED_MODULE_2__);\n\r\n\r\n\r\n\r\nconst words = `${_hello_js__WEBPACK_IMPORTED_MODULE_0__[\"default\"]} , ${_world_js__WEBPACK_IMPORTED_MODULE_1__[\"default\"]}`\r\nconst body = document.querySelector(\".js-index\")\r\nbody.innerHTML = words;  \r\nconsole.log(_style_css__WEBPACK_IMPORTED_MODULE_2___default.a);\n\n//# sourceURL=webpack:///./source/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _hello_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./hello.js */ \"./source/hello.js\");\n/* harmony import */ var _world_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./world.js */ \"./source/world.js\");\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./style.css */ \"./source/style.css\");\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_style_css__WEBPACK_IMPORTED_MODULE_2__);\n\r\n\r\n\r\n\r\nconst body = document.querySelector(\".js_hi\");\r\nbody.innerHTML = `${_world_js__WEBPACK_IMPORTED_MODULE_1__[\"default\"]} , ${_hello_js__WEBPACK_IMPORTED_MODULE_0__[\"default\"]}`;\r\nconsole.log(_style_css__WEBPACK_IMPORTED_MODULE_2___default.a);\n\n//# sourceURL=webpack:///./source/hi.js?");
 
 /***/ }),
 

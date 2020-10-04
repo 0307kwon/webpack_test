@@ -3,6 +3,6 @@ import world_word from "./world.js"
 import css from "./style.css"
 
 const words = `${hello_word} , ${world_word}`
-const body = document.querySelector(".js-index")
+const body = document.querySelector(".js_index")
 body.innerHTML = words;  
 console.log(css);

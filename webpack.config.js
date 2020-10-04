@@ -2,16 +2,20 @@ const path = require('path');
 
 module.exports = {
   mode: "development", 
-  entry: "./source/index.js", 
+  entry: {
+    index : "./source/index.js",
+    hi : "./source/hi.js", 
+  },
   output: {
     path: path.resolve(__dirname, "webpack_result"), // string
-    filename: "bundle.js", // string
+    filename: "[name]_bundle.js", // string
   },
   module: {
     rules: [
       {
         test: /\.css$/,
         use: [
+          'style-loader',
           'css-loader',
         ],
       },
